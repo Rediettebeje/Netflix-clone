@@ -1,0 +1,36 @@
+.navv{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    height: 30px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+}
+.navv_black{
+    background-color: #111;
+}
+.navv_logo{
+    position: fixed;
+    left: 20px;
+    width: 80px;
+    object-fit: contain;
+    
+
+}
+.navv_avatar {
+    position: fixed;
+    right: 20px;
+    width: 80px;
+    object-fit: contain;
+    height: 35px;
+
+}
+/* .navv_avatar {
+margin-right: 40px;
+
+} */
+/* npm i movie-trailer */
